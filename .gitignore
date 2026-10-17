@@ -1,0 +1,28 @@
+# PlatformIO build output and downloaded dependencies
+/.pio/
+/.pioenvs/
+/.piolibdeps/
+
+# Local credentials (keep include/secrets.example.h in version control)
+/include/secrets.h
+.env
+.env.*
+!.env.example
+
+# Generated VS Code files (keep shared settings and extension recommendations)
+/.vscode/.browse.c_cpp.db*
+/.vscode/c_cpp_properties.json
+/.vscode/launch.json
+/.vscode/ipch/
+
+# Logs and temporary editor files
+*.log
+*.swp
+*.swo
+*~
+
+# Operating-system metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
